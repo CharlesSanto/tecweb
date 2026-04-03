@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./src/login.css">
+</head>
+<body>
+
+    <main class="container">
+        <header class="header">
+            <img src="./public/learn.svg" class="logo"/>
+            <h1 class="title">Aluno Online</h1>
+        </header>
+
+        <form id="form-login" method="post">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email">
+            <span id="email-error" class="error-message"></span>
+
+            <label for="password">Senha</label>
+            <input type="password" id="password" name="password">
+            <span id="password-error" class="error-message"></span>
+
+            <button type="submit">Entrar</button>
+        </form>
+    </main>
+
+    <footer class="footer"> &copy; 2026. Todos os direitos reservados.</footer>
+
+    <script src="./src/main.js"></script>
+
+</body>
+</html>
