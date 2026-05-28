@@ -24,7 +24,7 @@ aside {
     width: 300px;
     min-height: 100vh;
     padding: 20px;
-    background-color: rgb(124 121 121);
+    background-color: rgb(206, 202, 202);
 }
 
 aside header {
@@ -81,7 +81,7 @@ section h2 {
 }
 
 article {
-    border: solid 1px rgb(124 121 121);
+    border: solid 1px rgb(206, 202, 202);
     border-radius: 10px;
     width: 500px;
     margin-bottom: 30px;
@@ -90,7 +90,7 @@ article {
 article h3 {
     font-weight: bold;
     padding: 4px 16px;
-    background-color: rgb(124 121 121);
+    background-color: rgb(206, 202, 202);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
@@ -138,3 +138,4 @@ article li {
         gap: 10px;
     }
 }
+
